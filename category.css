@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap");
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #212121;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: #212121;
+}
+
+.logo img {
+  width: 9rem;
+  position: relative;
+}
+
+.navbar .navbar-nav a {
+  color: #fafafa;
+  font-size: 1.4rem;
+}
+
+/* List */
+.list-ctg {
+  padding: 1.4rem 7%;
+  color: #fafafa;
+}
+
+/* RAMADHAN */
+.ramadhan {
+  padding-bottom: 1.7rem;
+}
+
+.ramadhan a {
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.line {
+  margin-top: 1.7rem;
+  border-top: 1.5px dashed rgb(105, 105, 105);
+}
+
+/* ASJ */
+.asj {
+  padding-bottom: 1.7rem;
+}
+
+.asj a {
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.line2 {
+  margin-top: 1.7rem;
+  border-top: 1.5px dashed rgb(105, 105, 105);
+}
+
+/* Media Queries */
+@media (max-width: 850px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 428px) {
+  html {
+    font-size: 80%;
+  }
+
+  .ramadhan a {
+    font-size: 1rem;
+  }
+
+  .asj a {
+    font-size: 1rem;
+  }
+}
