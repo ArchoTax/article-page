@@ -58,7 +58,8 @@ main {
 .sub-title h3 {
   font-size: 0.9rem;
   font-weight: 400;
-  color: rgb(105, 105, 105);
+  color: rgb(165, 165, 165);
+  margin-bottom: 1rem;
 }
 
 .main-title h1 {
