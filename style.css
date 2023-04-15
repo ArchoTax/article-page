@@ -117,7 +117,7 @@ main {
 
 .line {
   margin-top: 2rem;
-  border-top: 1.5px dashed rgb(105, 105, 105);
+  border-top: 1.5px dashed rgb(165, 165, 165);
 }
 
 /* Card 2 */
@@ -338,7 +338,7 @@ main {
 
   .line2 {
     margin-top: 1.4rem;
-    border-top: 1.5px dashed rgb(105, 105, 105);
+    border-top: 1.5px dashed rgb(165, 165, 165);
     padding-bottom: 3rem;
   }
 
@@ -409,7 +409,7 @@ main {
 
   .line2 {
     margin-top: 1.4rem;
-    border-top: 1.5px dashed rgb(105, 105, 105);
+    border-top: 1.5px dashed rgb(165, 165, 165);
     padding-bottom: 3rem;
   }
 
