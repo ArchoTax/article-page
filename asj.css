@@ -192,7 +192,7 @@ main {
 .dribbble {
   color: #fafafa;
   margin-left: 2rem;
-  transition: 0.8s ease-in-out;
+  transition: 0.3s linear;
 }
 
 .dribbble :hover {
@@ -203,7 +203,7 @@ main {
 .behance {
   color: #fafafa;
   margin-left: 2rem;
-  transition: 0.8s ease-in-out;
+  transition: 0.3s linear;
 }
 
 .behance :hover {
